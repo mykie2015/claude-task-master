@@ -62,6 +62,7 @@ const DEFAULTS = {
 		defaultPriority: 'medium',
 		projectName: 'Task Master',
 		ollamaBaseURL: 'http://localhost:11434/api',
+		azureBaseURL: null,
 		bedrockBaseURL: 'https://bedrock.us-east-1.amazonaws.com'
 	}
 };

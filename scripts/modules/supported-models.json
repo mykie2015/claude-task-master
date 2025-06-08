@@ -203,6 +203,64 @@
 			"max_tokens": 131072
 		}
 	],
+	"azure": [
+		{
+			"id": "gpt-4o",
+			"name": "GPT-4o (From Image)",
+			"swe_score": null,
+			"cost_per_1m_tokens": { "input": 5.0, "output": 15.0 },
+			"allowed_roles": ["main", "fallback", "research"],
+			"max_tokens": 128000
+		},
+		{
+			"id": "gpt-4.1-mini",
+			"name": "GPT-4.1-mini (From Image)",
+			"swe_score": null,
+			"cost_per_1m_tokens": { "input": 0.2, "output": 0.8 },
+			"allowed_roles": ["main", "fallback", "research"],
+			"max_tokens": 128000
+		},
+		{
+			"id": "gpt-4.1",
+			"name": "GPT-4.1 (From Image)",
+			"swe_score": null,
+			"cost_per_1m_tokens": { "input": 10.0, "output": 30.0 },
+			"allowed_roles": ["main", "fallback", "research"],
+			"max_tokens": 128000
+		},
+		{
+			"id": "gpt-o4-mini",
+			"name": "GPT-o4-mini (From Image)",
+			"swe_score": null,
+			"cost_per_1m_tokens": { "input": 0.15, "output": 0.6 },
+			"allowed_roles": ["main", "fallback", "research"],
+			"max_tokens": 128000
+		},
+		{
+			"id": "gpt-o3-mini",
+			"name": "GPT-o3-mini (From Image)",
+			"swe_score": null,
+			"cost_per_1m_tokens": { "input": 0.5, "output": 1.5 },
+			"allowed_roles": ["main", "fallback", "research"],
+			"max_tokens": 16385
+		},
+		{
+			"id": "gpt-o1-mini",
+			"name": "GPT-o1-mini (From Image)",
+			"swe_score": null,
+			"cost_per_1m_tokens": { "input": 0.5, "output": 1.5 },
+			"allowed_roles": ["main", "fallback", "research"],
+			"max_tokens": 16385
+		},
+		{
+			"id": "gpt-o3",
+			"name": "GPT-o3 (From Image)",
+			"swe_score": null,
+			"cost_per_1m_tokens": { "input": 0.5, "output": 1.5 },
+			"allowed_roles": ["main", "fallback", "research"],
+			"max_tokens": 16385
+		}
+	],
 	"ollama": [
 		{
 			"id": "devstral:latest",
